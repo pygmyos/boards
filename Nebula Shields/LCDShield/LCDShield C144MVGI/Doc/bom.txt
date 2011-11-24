@@ -1,0 +1,45 @@
+Partlist
+
+Exported from LCDShield_C144MVGI 1.0.brd at 10/6/2011 8:01:10 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                            Package           
+
+C1       1uF                              C0402                 
+C4       220pF                            C0402              
+C5       220pF                            C0402                   
+C6       220pF                            C0402                
+C7       220pF                            C0402                    
+C8       220pF                            C0402                 
+C9       330uF                            C0402                   
+C10      220pF                            C0402                  
+C11      0.47uF                           C0402              
+C12      5pF                              C0402                 
+C23      1uF                              C0402               
+C24      0.1uF                            C0402                 
+C25      0.47uF                           C0402                
+C26      2.2uF                            C0402                
+R1       10                               R0805                         
+R2       10K                              R0402                          
+R4       47K                              R0402                        
+R5       47K                              R0402                       
+R8       47K                              R0402                        
+R9       47K                              R0402                           
+R11      10K                              R0402                           
+R12      50K                              R0402                             
+R13      47K                              R0402                            
+R14      100K                             R0402                            
+R15      100K                             R0402                             
+R16      0                                R0402                           
+R17      1K                               R0402                            
+R18      47K                              R0402                            
+S1       SWITCH-MOMENTARY-2SMD            SPARKFUN_TACTILE_SWITCH_SMD      
+SJ2                                       SJ_3                              
+SPK+     TESTPAD_TPTESTPAD_PTH_STD        TESTPAD_PTH_STD                   
+SPK-     TESTPAD_TPTESTPAD_PTH_STD        TESTPAD_PTH_STD                   
+U$1      VARITRONIX_COG-C144MVGI-08FOLDED VARITRONIX_COG-C144MVGI-08_FOLDED 
+U2       BIPOLAR-PMBT6428                 DUBLIB_SOT23                      
+U5       TPA311                           SO08                              
+U6       MIC_KNOWLES_SPM0408HE5H          SPM0408HE5H                       
+U7       KOBICONN-161-4034-E-TOP          KOBICONN-161-403X-E-TOP           

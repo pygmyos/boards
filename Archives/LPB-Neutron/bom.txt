@@ -1,0 +1,90 @@
+Partlist
+
+Exported from PygmyWEB_LowPower_V1p3.brd at 8/23/2011 12:54:28 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                 Package                
+
+ANT      ANTENNA2SMD5          ANTENNA-CHIP5              
+C1       0.1uF                 C0402                       
+C2       0.1uF                 C0402                      
+C3       0.1uF                 C0402                   
+C4       0.1uF                 C0402             
+C5       0.1uF                 C0402             
+C6       2.2uF                 C0402             
+C7       220pF                 C0402             
+C8       18pF                  C0402             
+C9       18pF                  C0402              
+C10      12.5pF                C0402                
+C11      12.5pF                C0402                
+C12      0.1uF                 C0402                
+C13      0.1uF                 C0402                 
+C14      1.5pF                 C0402              
+C15      1.0pF                 C0402         
+C16      4.7pF                 C0402                  
+C17      0.0022uF              C0402                   
+C18      12.5pF                C0402                   
+C19      12.5pF                C0402                    
+C20      0.033uF               C0402                       
+C21      10uF                  C0805                     
+C23      2.2uF                 C0402                     
+C24      10uF                  C0805                   
+D1       DIODE-SCHOTTKY_       SMA-DIODE             
+D2       DIODE-SCHOTTKY_       SMA-DIODE            
+JP1      M16ALTSILKLAYER       1X16SS               
+JP2      M16ALTSILKLAYER       1X16SS               
+JP3      M16ALTSILKLAYER       1X16SS                
+JP4      M16ALTSILKLAYER       1X16SS                
+JP5                            JST-2-PTH           
+JP6                            JST-2-PTH            
+JP7                            1X03SS              
+JP8      FIDUCIAL1.5X3         FIDUCIAL-1.5X3         
+JP9      FIDUCIAL1.5X3         FIDUCIAL-1.5X3       
+L1       10uH                  0603              
+L2       3.9nH                 0603                   
+L3       8.2nH                 0603                
+L4       2.7nH                 0603                    
+L5       1uH                   0805                 
+LED1                           LED-0603            
+LED2                           LED-0603            
+LED3                           LED-0603             
+LED4                           LED-0603            
+Q1       8MHz                  CRYSTAL-SMD-5X3     
+Q2       16MHz                 CRYSTAL-SMD-5X3     
+R1       100K                  R0402              
+R2       100K                  R0402             
+R3       100K                  R0402              
+R4       100K                  R0402               
+R5       22K                   R0402            
+R8       1K                    R0402             
+R9       1K                    R0402                  
+R10      10K                   R0402                  
+R11      47K                   R0402                 
+R12      47K                   R0402                  
+R13      330                   R0402              
+R14      470                   R0402               
+R15      0.1                   R0805               
+R22      1.5K                  R0402                  
+R23      36K                   R0402                     
+R24      10K                   R0402                    
+R25      47K                   R0402                       
+RN1      CTS742C083            CTS742C083                  
+RN2      CTS742C083            CTS742C083                 
+S2       SWITCH-MOMENTARY-2SMD SPARKFUN_TACTILE_SWITCH_SMD
+SJ1                            SJ_3                        
+SJ2                            SJ_3                        
+SJ3                            SJ_3                        
+SJ4                            SJ_2                        
+U$2      STM32-JTAG-10P        STM32-JTAG-10P              
+U1       STM32L152             S-PQFP64-G64                
+U2       NRF24L01SMD           QFN20                      
+U3       BQ24090               R-PDSO-G10                  
+U4       SST25VF080B           DUBLIB_SOIC8                
+U5       N25S0830HA            TSSOP8                      
+U6       USBLC6-2              SOT23-6L                    
+U7       BIPOLAR-PMBT6428      DUBLIB_SOT23                
+U8       BIPOLAR-PMBT6428      DUBLIB_SOT23               
+U9       FAIRCHILD-REG-FAN5362 MO229                      
+U10      CM415                 CM415                   
+X1       MINI-USBUX60-MB-5ST   DUBLIB_UX60-MB-5ST       

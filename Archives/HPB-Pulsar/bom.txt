@@ -1,0 +1,105 @@
+Partlist
+
+Exported from PygmyWEB_Performance_V1p4.brd at 8/23/2011 6:05:09 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part      Value                      Package             
+
+ANT       ANTENNA2SMD5               ANTENNA-CHIP5      
+BATTHEAD1                            1X03                       
+BATTHEAD2                            1X03              
+C1        0.1uF                      C0402                 
+C2        0.1uF                      C0402              
+C3        0.1uF                      C0402            
+C4        0.1uF                      C0402               
+C5        0.1uF                      C0402              
+C6        0.1uF                      C0402             
+C7        0.1uF                      C0402              
+C8        220pF                      C0402                 
+C9        0.1uF                      C0402             
+C10       2.2uF                      C0402              
+C11       2.2uF                      C0402             
+C12       1.5pF                      C0402             
+C13       1pF                        C0402             
+C14       4.7pF                      C0402              
+C15       0.1uF                      C0402               
+C17       12.5pF                     C0402              
+C18       12.5pF                     C0402               
+C19       18pF                       C0402            
+C20       18pF                       C0402            
+C21       0.0022uF                   C0402         
+C22       12.5pF                     C0402           
+C23       12.5pF                     C0402            
+C24       0.033uF                    C0402           
+C25       0.1uF                      C0402              
+C28       100uF                      C0402             
+C29       100uF                      C0402                
+C30       100uF                      C0402              
+C31       10uF                       C0402              
+C32       680uF                      PANASONIC_G        
+C33       1000uF                     PANASONIC_G           
+C45       220pF                      C0402               
+GNDHEAD1  M16PTH                     1X16               
+GNDHEAD2  M16PTH                     1X16                
+GNDHEAD3  M16PTH                     1X16             
+GNDHEAD4  M16PTH                     1X16              
+IC1       3.3v                       SOT223                
+IC2       AP1084T50L-UTO220          TO220V               
+JP1       FIDUCIAL1.5X3              FIDUCIAL-1.5X3     
+JP2       FIDUCIAL1.5X3              FIDUCIAL-1.5X3      
+L1        10uH                       0805            
+L2        3.9nH                      0603             
+L3        8.2nH                      0603             
+L4        2.7nH                      0603            
+LED1                                 LED-0603          
+LED2                                 LED-0603           
+PINHEAD1  M16PTH                     1X16               
+PINHEAD2  M16PTH                     1X16               
+PINHEAD3  M16PTH                     1X16                 
+PINHEAD4  M16PTH                     1X16               
+PWRHEAD1  M16PTH                     1X16          
+PWRHEAD2  M16PTH                     1X16                    
+PWRHEAD3  M16PTH                     1X16                   
+PWRHEAD4  M16PTH                     1X16                  
+Q1        8MHz                       CRYSTAL-SMD-5X3          
+Q2        CM415                      CM415                     
+Q3        16MHz                      CRYSTAL-SMD-5X3          
+R1        10K                        R0402                 
+R2        47K                        R0402               
+R3        47K                        R0402                 
+R4        47K                        R0402                 
+R5        47K                        R0402              
+R6        47K                        R0402              
+R7        47K                        R0402               
+R8        330                        R0402                  
+R9        330                        R0402               
+R10       47K                        R0402                  
+R11       47K                        R0402                
+R12       47K                        R0402               
+R13       47K                        R0402           
+R14       47K                        R0402                
+R15       47K                        R0402                
+R16       22K                        R0402                 
+R17       47K                        R0402                 
+R18       47K                        R0402                  
+R34       1.5K                       R0402                  
+R35       10K                        R0402                
+R36       36K                        R0402                
+R37       47K                        R0402                    
+R48       100K                       R0402                     
+RSTSWITCH SWITCH-MOMENTARY-2SMD      TACTILE_SWITCH_SMD        
+SJ1                                  SJ_3                   
+SJ2                                  SJ_3                      
+SJ3                                  SJ_3_PASTE1&2            
+SJ4                                  SJ_3_PASTE1&2          
+SJ5       SOLDERJUMPERNO             SJ_2S-NO              
+U$23      PMBT6428                   SOT23@1                   
+U$24      PMBT6428                   SOT23@1                    
+U1        STM32F205VG                TQFP100                   
+U2        NRF24L01SMD                QFN20                      
+U3        SST25VF080B                DUBLIB_SOIC8               
+U4        USBLC6-2                   SOT23-6L                   
+U5        STM32-JTAG-10P             STM32-JTAG-10P            
+U6        HIROSE-SDCARD-DM3B-DSF-PEJ HIROSE-SDCARD-DM3B-DSF-PEJ 
+X2        MINI-USBUX60-MB-5ST        DUBLIB_UX60-MB-5ST        

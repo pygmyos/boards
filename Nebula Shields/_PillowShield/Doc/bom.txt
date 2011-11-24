@@ -1,0 +1,20 @@
+Partlist
+
+Exported from PillowShield 1.0.brd at 10/6/2011 8:10:21 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                   Package    
+
+C1       100nF                   0603-CAP    
+C2       100nF                   0603-CAP    
+C3       0.47uF                  0603-CAP   
+C4       1uF                     0603-CAP    
+FP1      #ETX-MAIN               #ETX-HOLES  
+IC1      BMA220LGA               LGA12       
+R1       80K                     0603-RES    
+R2       0.0                     0603-RES   
+U$1      MICROCHIP-TEMP-TC1047   SOT23       
+U$2      MIC_KNOWLES_SPM0408HE5H SPM0408HE5H 
+U1       HIH-4030SMD             HIH-4030    
+U2       V_REG_LDOSMD            SOT23-5     

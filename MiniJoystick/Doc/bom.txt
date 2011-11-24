@@ -1,0 +1,28 @@
+Partlist
+
+Exported from MiniJoystick 1.2.brd at 9/3/2011 12:54:58 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part           Value                   Package             
+
+B1             ActiveLow               TACTILE_SWITCH_SMD  
+C1             .1uF                    0402-CAP            
+C4             33nF                    0402-CAP            
+C5             22pF                    0402-CAP          
+C6             22pF                    0402-CAP            
+C7             1.5pF                   0402-CAP           
+C8             1pF                     0402-CAP            
+CHIPANT        ANTENNA2SMD5            ANTENNA-CHIP5      
+JOYSTICK_LEFT  JOYSTICK-PSP1000NOHOLES _JOYSTICK-PSP1000NH 
+JOYSTICK_RIGHT JOYSTICK-PSP1000NOHOLES _JOYSTICK-PSP1000NH 
+JP1                                    JST-2-SMD           
+L1             8.2nH                   C0402               
+L2             3.9nH                   C0402              
+L3             2.7nH                   C0402               
+MCU            ATTINY24QFN             QFN20               
+R1             22K                     0603-RES            
+R2             1M                      0603-RES            
+R3             10K                     0402-RES            
+RF             NRF24L01SMD             QFN20              
+Y1             16MHz                   CRYSTAL-SMD-5X3    
