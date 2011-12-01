@@ -1,0 +1,1 @@
+These are the library (lbr), cam (cam), and design rule (dru) files for Pygmy boards.
