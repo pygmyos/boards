@@ -10,4 +10,7 @@ Dru file names appended with "(Proto)" will never mask vias.
 
 ---cam---
 Cam file names appended with "(Special silk)" will have the following layers on the produced silk gerbers: tTest/bTest, _tsilk/_bsilk, and Dimension.
-Cam file names not appended with "(Special silk)" will have the following layers on the produced silk gerbers: tPlace/bPlace, _tsilk/_bsilk, and Dimension.
+Cam file names not appended with "(Special silk)" will have the following layers on the produced silk gerbers (if applicable): tPlace/bPlace, _tsilk/_bsilk, and Dimension.
+
+Stencil.cam is used to generate files for solder paste stencils.
+Board Checks.cam is used to check the silk layers on the boards
