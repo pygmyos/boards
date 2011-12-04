@@ -1,81 +1,123 @@
 Partlist
 
-Exported from Nebula 1.4.brd at 9/18/2011 2:40:23 PM
+Exported from Nebula v1.brd at 12/4/2011 12:03:15 AM
 
 EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
 
-Part     Value                 Package           
+Part     Value                 Package         
 
-C1       1.5pF                 C0402             
-C2       1.0pF                 C0402        
-C3       0.0022uF              C0402    
-C4       4.7pF                 C0402           
-C5       12.5pF                C0402       
-C6       12.5pF                C0402       
-C7       0.033uF               C0402       
-C8       12.5pF                C0402       
-C9       12.5pF                C0402          
-C10      18pF                  C0402         
-C11      18pF                  C0402        
-C12      220pF                 C0402     
-C13      0.1uF                 C0402      
-C14      0.1uF                 C0402      
-C15      0.1uF                 C0402      
-C16      0.1uF                 C0402         
+C1       1.5pF                 C0402          
+C2       1.0pF                 C0402    
+C3       0.0022uF              C0402   
+C4       4.7pF                 C0402    
+C5       18pF                  C0402    
+C6       18pF                  C0402   
+C7       0.033uF               C0402      
+C8       18pF                  C0402      
+C9       18pF                  C0402      
+C10      9pF                   C0402    
+C11      9pF                   C0402    
+C12      220pF                 C0402      
+C13      0.1uF                 C0402         
+C14      0.1uF                 C0402       
+C15      0.1uF                 C0402       
+C16      0.1uF                 C0402       
 C18      10uF                  C0805       
-C20      10uF                  C0805         
-C21      18pF                  C0402   
-C22      18pF                  C0402        
+C20      10uF                  C0805       
+C21      18pF                  C0402      
+C22      18pF                  C0402      
 C23      0.1uF                 C0402      
 C24      0.47uF                C0402      
-C25      0.1uF                 C0402          
+C25      0.1uF                 C0402       
 C26      0.1uF                 C0402        
-D5       DIODE-SCHOTTKY_       SMA-DIODE    
-FP1      #ETX-MAINPTH          #ETX-HOLES    
-JP6                            JST-2-SMD      
-L1       3.9nH                 C0402        
-L2       8.2nH                 C0402       
-L3       2.7nH                 C0402           
-LED1                           LED-0603         
-LED2                           LED-0603          
-LED3                           LED-0603          
-LED4                           LED-0603          
-LED5                           LED-0603           
-Q1       12MHz                 CRYSTAL-SMD-5X3    
-Q2       CM415                 CM415             
-Q3       16MHz                 CRYSTAL-SMD-5X3  
-Q4       12MHz                 CRYSTAL-SMD-5X3  
-R1       0.1                   R0805            
-R2       22K                   R0402           
-R3       100K                  R0402           
-R4       470                   R0402           
-R5       470                   R0402            
-R6       1K                    R0402             
-R7       1K                    R0402             
-R8       470                   R0402            
-R10      10K                   R0402            
-R11      10K                   R0402              
-R12      470                   R0402             
-R13      47K                   R0402             
-R14      47K                   R0402          
-R15      100K                  R0402            
-R16      100K                  R0402           
-R17      100K                  R0402            
-R18      47K                   R0402           
-R19      47K                   R0402           
-RN1      CTS742C083            CTS742C083      
-RN2      CTS742C083            CTS742C083         
-S1       SWITCH-MOMENTARY-2SMD TACTILE_SWITCH_SMD
-SJ2                            SJ_3_PASTE1&2     
-SJ3                            SJ_3_PASTE1&2      
-SJ5                            SJ_3_PASTE1&2     
-U$1      STM32-JTAG-10P        STM32-JTAG-10P    
-U1       NRF24L01SMD           QFN20             
-U2       ANTENNA2SMD5          ANTENNA-CHIP5     
-U3       STM32F100R4T6B        S-PQFP64-G64      
-U6       BQ24090               R-PDSO-G10        
-U7       MICROCHIP-USB-MCP2200 QFN-20-5X5       
-U8       NCP500                SOT23-5L         
-U9       SST25VF080B           SOIC8@1          
-U10      N25S0830HA            TSSOP8            
-X1       MINI-USB-UX60A-MB-5ST UX60A-MB-5ST       
+D1       SMF5.0AT1             SOD123FL    
+D2       SMF5.0AT1             SOD123FL   
+D3       SMF5.0AT1             SOD123FL     
+D4       SMF5.0AT1             SOD123FL    
+JP6                            JST-2-SMD   
+L1       3.9nH                 C0402       
+L2       8.2nH                 C0402        
+L3       2.7nH                 C0402       
+LED1     ORANGE                LED-0603  
+LED2     YELLOW                LED-0603   
+LED3     RED                   LED-0603        
+LED4     BLUE                  LED-0603     
+LED5     GREEN                 LED-0603       
+NEBULA1  #NEBULAPTH            #NEBULA-PTH@1   
+Q1       12MHz                 CRYSTAL-SMD-5X3
+Q2       CM415                 CM415           
+Q3       16MHz                 CRYSTAL-SMD-5X3 
+Q4       12MHz                 CRYSTAL-SMD-5X3 
+R1       47K                   R0402         
+R2       22K                   R0402          
+R3       100K                  R0402          
+R4       470                   R0402          
+R5       470                   R0402         
+R6       47K                   R0402          
+R8       470                   R0402          
+R9       470                   R0402          
+R10      2K                    R0402          
+R11      10K                   R0402           
+R12      470                   R0402          
+R16      100K                  R0402         
+R17      47K                   R0402          
+R18      47K                   R0402          
+R20      10K                   R0402           
+R21      10K                   R0402          
+R22      470                   R0402                   
+U1       NRF24L01SMD           QFN20          
+U2       ANTENNA2SMD5          ANTENNA-CHIP5   
+U3       STM32F100R4T6B        S-PQFP64-G64 
+U4       STM32-JTAG-10P        STM32-JTAG-10P  
+U5       MICROCHIP-TEMP-TC1047 SOT23    
+U6       CHARGE-MCP7383X       DFN-2X3     
+U7       MICROCHIP-USB-MCP2200 QFN-20-5X5  
+U8       NCP500                SOT23-5L        
+U9       SST25VF080B           SOIC8@1    
+U10      SWITCH-CK-KMT0        SWITCH-CK-KMT0      
+X1       MINI-USB-UX60A-MB-5ST UX60A-MB-5ST   
+
+
+Description	Value    	Package		Quantity       
+Capacitor	1.5pF		0402		1
+Capacitor	1.0pF		0402		1
+Capacitor	0.0022uF	0402		1         
+Capacitor	4.7pF		0402		1   
+Capacitor	18pF  		0402		6
+Capacitor	9pF		0402		2
+Capacitor	0.033uF         0402      	1
+Capacitor	220pF           0402	      	1      
+Capacitor	0.1uF           0402         	7
+Capacitor	10uF            0805    	2   
+Capacitor	0.47uF          0402   		1   
+Schottky Diode			SOD123		4   
+JST Connector			JST-2P		1
+Inductor	3.9nH           0402    	1   
+Inductor	8.2nH           0402        	1
+Inductor	2.7nH           0402       	1
+LED 		ORANGE    	0603           	1  
+LED	 	YELLOW	        0603           	1  
+LED 		RED        	0603        	1
+LED 		BLUE       	0603     	1
+LED 		GREEN      	0603		1       
+Crystal		12MHz        	5X3		1
+Crystal		32.768KHz    	CM415           1
+Crystal		16MHz        	5X3 		1
+Crystal		12MHz        	5X3		1
+Resistor	47K             0402         	4
+Resistor	22K             0402   		1       
+Resistor	100K            0402    	2      
+Resistor	470             0402   		6       
+Resistor	2K              0402        	1  
+Resistor	10K            	0402         	3                                             
+Header 				JTAG-10P        1
+MICROCHIP-TEMP	TC1047 		SOT23 		1          
+SWITCH-CK-KMT0  		SWITCH-CK-KMT0	1  
+LiPo Charger	MCP7383X       	DFN-2X3		1         
+Nordic RF	NRF24L01SMD     QFN20 		1         
+ANTENNA         		ANTENNA-CHIP5   1
+MCU		STM32F100R4T6B  LQFP64		1  
+MICROCHIP-USB	MCP2200 	QFN-20-5X5	1    
+Regulator	NCP500 3.3V     SOT23-5L 	1       
+FLASH		SST25VF080B     SOIC8		1      
+Mini-USB Conn	UX60A-MB-5ST 	UX60A-MB-5ST	1   
