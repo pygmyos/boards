@@ -1,0 +1,41 @@
+Partlist
+
+Exported from GasSensor Shield v1.brd at 12/4/2011 1:36:02 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                      Package    
+
+C1       0.1uF                      C0402          
+C2       0.1uF                      C0402        
+C3       2.2uF                      C0603         
+C4       2.2uF                      C0603        
+C5       10uf                       C0805         
+C6       10uF                       C0805          
+JP1                                 1X03           
+JP2                                 1X02           
+JP3      FIDUCIAL1.5X3              FIDUCIAL-1.5X3 
+JP4      FIDUCIAL1.5X3              FIDUCIAL-1.5X3 
+NEBULA1  #NEBULAPTH                 #NEBULA-PTH@1  
+R2       47K                        R0402          
+R6       10K                        R0402          
+R7       10K                        R0402          
+U2      SENSOR-GAS-MQXXX           MQ-3           
+U3      EEPROM-ATMEL-AT24HC02B     TSSOP8         
+U4      DIGIPOT-MCP44X1            TSSOP20        
+U5      OPAMP-ST-LMV321RILT        SOT23-5L       
+U6      REGULATOR-TI-60131         HTSSOP20PWP    
+U7      TRANSISTOR-VISHAY-SI7288DP SOIC8          
+
+Description	Value		Package		Quantity    
+Capacitor	0.1uF   	0402  		2        
+Capacitor	2.2uF           0603     	2          
+Capacitor       10uf            0805   		2                 
+Resistor        47K             0402       	1   
+Resistor	10K             0402        	2            
+Gas Sensor      		MQ-X		1		           
+EEPROM		AT24HC02B     	TSSOP8   	1      
+DIGIPOT		MCP44X1         TSSOP20		1        
+OPAMP		LMV321RILT      SOT23-5L	1       
+REGULATOR	TI-60131        HTSSOP20PWP	1    
+TRANSISTOR	SI7288DP 	SOIC8     	1     
