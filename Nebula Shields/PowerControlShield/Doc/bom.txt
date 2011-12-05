@@ -1,0 +1,29 @@
+Partlist
+
+Exported from PowerControlShield v1.brd at 12/4/2011 7:28:12 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                      Package      
+
+JP1                                 1X02       
+JP2                                 1X08       
+R1       10K                        0402-RES   
+R2       10K                        0402-RES     
+R3       10K                        0402-RES    
+R4       10K                        0402-RES     
+R9       10K                        0402-RES   
+R10      10K                        0402-RES  
+R11      10K                        0402-RES   
+R12      10K                        0402-RES  
+U1       TRANSISTOR-VISHAY-SI7288DP SOIC8       
+U2       TRANSISTOR-VISHAY-SI7288DP SOIC8      
+U3       TRANSISTOR-VISHAY-SI7288DP SOIC8         
+U4       TRANSISTOR-VISHAY-SI7288DP SOIC8        
+
+
+Description	Value		Package		Quantity     
+JP1             1X02       	0.1"		1
+JP2            	1X08       	0.1"		1
+Resistor        10K             0402		8   
+MOSFET       	SI7288DP 	SOIC8 		4             

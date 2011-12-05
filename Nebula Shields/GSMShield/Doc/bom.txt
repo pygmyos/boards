@@ -1,0 +1,61 @@
+Partlist
+
+Exported from GSMShield v1.brd at 12/4/2011 1:59:20 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value              Package        
+
+C1       1uF                C0402         
+C2       33pF               C0402          
+C3       33pF               C0402          
+C4       33pF               C0402          
+C5       33pF               C0402          
+C6       100uF              EIA6032        
+JP2      FIDUCIAL1X2.5      FIDUCIAL-1X2.5 
+JP3      FIDUCIAL1X2.5      FIDUCIAL-1X2.5 
+JP5                         1X03           
+JP6      M10"               1X10           
+JP7      M10"               1X10           
+L1       10uH               1210           
+LED1     RED                LED-0603       
+LED2     GREEN              LED-0603       
+NEBULA1  #NEBULAPTH         #NEBULA-PTH@1  
+R1       10K                R0402          
+R2       47K                R0402         
+R3       10K                R0402          
+R4       47K                R0402          
+R5       470                R0402          
+R6       470                R0402          
+R7       47K                R0402          
+R8       47K                R0402          
+U6       BIPOLAR-PMBT6428   DUBLIB_SOT23   
+U4       ESDAXXSC6          SOT23-6L       
+U7       DALC208            SOT23-6L       
+U10      U.FL               U.FL           
+U8       INTERFACE-TXS0104E PW_R-PDSO-G14  
+U9       INTERFACE-TXS0104E PW_R-PDSO-G14  
+U11      TELIT-GE865T       TELIT-GE865    
+U2       BIPOLAR-PMBT6428   DUBLIB_SOT23   
+U3       NCP500             SOT23-5L       
+U5       CCM03-3009         CCM03-300X     
+
+Description	Value     	Package 	Quantity       
+Capacitor	1uF             0402  		1       
+Capacitor	33pF            0402		4                  
+Capacitor       100uF           EIA6032 	1          
+Header	      	M10"            1X10 		2                   
+Inductor       	10uH            1210		1           
+LED     	RED             0603  		1     
+LED     	GREEN           0603  		1     
+Resistor       	10K             0402		2          
+Resistor       	47K             0402 		4                          
+Resistor       	470             0402		2                                      
+Bipolar		PMBT6428   	SOT23  		2
+TVS Diode Array	ESDAXXSC6       SOT23-6L	1       
+TVS Diode Array	DALC208         SOT23-6L	1       
+RF Connector	U.FL            U.FL 		1          
+Level Shifter   TXS0104E 	PDSO-G14  	2
+Cellular Modem	TELIT-GE865T    TELIT-GE865	1    
+Regulator	NCP500          SOT23-5L 	1      
+SIM Holder	CCM03-3009      CCM03-300X	1     

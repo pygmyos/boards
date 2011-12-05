@@ -1,0 +1,53 @@
+Partlist
+
+Exported from LCDShieldC144MVGD v1.brd at 12/4/2011 2:37:20 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                                  Package                   
+
+C1       1uF                                    C0402                     
+C2       1uF                                    C0402                      
+C3       1uF                                    C0402                      
+C4       220pF                                  C0402                      
+C5       220pF                                  C0402                     
+C6       220pF                                  C0402                      
+C7       220pF                                  C0402                      
+C8       220pF                                  C0402                      
+C9       0.1uF                                  C0402                      
+C10      220pF                                  C0402                      
+C11      220pF                                  C0402                      
+JP1      JOYSTICK_MINI4UCON                     JOYSTICK_MINI             
+JP2      FIDUCIAL1X2.5                          FIDUCIAL-1X2.5             
+JP3      FIDUCIAL1X2.5                          FIDUCIAL-1X2.5             
+NEBULA1  #NEBULAPTH                             #NEBULA-PTH@1             
+R1       10                                     R0805                      
+R2       10K                                    R0402                      
+R3       47K                                    R0402                      
+R4       47K                                    R0402                      
+R5       47K                                    R0402                   
+R6       47K                                    R0402                     
+R7       47K                                    R0402                      
+R8       47K                                    R0402                     
+R9       47K                                    R0402                     
+R10      47K                                    R0402                      
+R11      47K                                    R0402                      
+R18      47K                                    R0402                                   
+U1       VARITRONIX_VL-PS-COG-C144MVGD-04FOLDED VARITRONIX_C144MVGD_FOLDED 
+U2       BIPOLAR-PMBT6428                       DUBLIB_SOT23               
+U3       EEPROM-ATMEL-AT24HC02B                 TSSOP8                     
+U4       SWITCH-ALPS-SKRG                       SWITCH-2P-5MM              
+U5       SWITCH-ALPS-SKRG                       SWITCH-2P-5MM
+
+Description	Value		Package		Quantity               
+Capacitor       1uF             0402		3                                       
+Capacitor       220pF           0402     	7                                 
+Capacitor       0.1uF           0402            1          
+JOYSTICK        		JOYSTICK_MINI	1	                     
+Resistor        10              0805 		1                     
+Resistor        10K             0402            1          
+Resistor        47K             0402            10                             
+EEPROM		AT24HC02B       TSSOP8  	1                   
+Switch SKRG     Tactile		SWITCH-2P-5MM   2                     
+Varitronix LCD  C144MVGD-04	C144MVGD_FOLDED	1 
+Bipolar		PMBT6428       	SOT23 		1              

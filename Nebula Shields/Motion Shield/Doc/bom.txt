@@ -1,0 +1,17 @@
+Partlist
+
+Exported from Motion Shield v1.brd at 12/4/2011 4:12:18 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                  Package        
+
+C1       0.1uF                  C0402              
+C2       0.1uF                  C0402              
+U1       EEPROM-ATMEL-AT24HC02B TSSOP8             
+U2       PANASONIC-AMN41122     PANASONIC-AMN41122
+
+Description	Value           Package		Quantity       
+Capacitor       0.1uF           0402            1                    
+EEPROM		AT24HC02B 	TSSOP8          1   
+Motion Sensor	AMN41122     	AMN41122	1
