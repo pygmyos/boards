@@ -10299,20 +10299,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <label x="185.42" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT0_11" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PE9/FSMC_D6/TIM1_CH1"/>
-<wire x1="182.88" y1="33.02" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
-<label x="185.42" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT1_11" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PE11/FSMC_D8/TIM_CH2"/>
-<wire x1="182.88" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
-<label x="185.42" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="FLASH_CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE12/FSMC_D9"/>
@@ -10348,16 +10334,18 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <label x="50.8" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT1_12" class="0">
+<net name="CARD1_ID" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE0/FSMC_NBL0/DCMI_D2"/>
 <wire x1="182.88" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="185.42" y="55.88" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="CARD0_ID" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE10/FSMC_D7"/>
-<wire x1="182.88" y1="30.48" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="185.42" y="30.48" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PC2/SPI2_MISO/ADC123_IN12"/>
+<wire x1="182.88" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
+<label x="185.42" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -10459,8 +10447,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="124.46" y1="-5.08" x2="124.46" y2="0" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="0" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="5.08" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="10.16" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="20.32" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="10.16" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="5.08" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
@@ -10477,17 +10464,13 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="CARD0" gate="G$1" pin="P26"/>
 <pinref part="CARD0" gate="G$1" pin="P28"/>
 <pinref part="CARD0" gate="G$1" pin="P30"/>
-<pinref part="CARD0" gate="G$1" pin="P22"/>
-<wire x1="99.06" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
-<junction x="124.46" y="20.32"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="205.74" y1="-5.08" x2="205.74" y2="0" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="0" x2="205.74" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="5.08" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="10.16" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="20.32" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="10.16" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="0" x2="205.74" y2="0" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="5.08" x2="205.74" y2="5.08" width="0.1524" layer="91"/>
@@ -10499,9 +10482,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="CARD1" gate="G$1" pin="P28"/>
 <pinref part="CARD1" gate="G$1" pin="P26"/>
 <pinref part="CARD1" gate="G$1" pin="P5"/>
-<pinref part="CARD1" gate="G$1" pin="P22"/>
-<wire x1="180.34" y1="20.32" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
-<junction x="205.74" y="20.32"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="66.04" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
@@ -11108,6 +11088,20 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="121.92" y1="66.04" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="CARD0" gate="G$1" pin="P4"/>
+</segment>
+</net>
+<net name="CARD0_ID" class="0">
+<segment>
+<pinref part="CARD0" gate="G$1" pin="P22"/>
+<wire x1="99.06" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+<label x="101.6" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CARD1_ID" class="0">
+<segment>
+<pinref part="CARD1" gate="G$1" pin="P22"/>
+<wire x1="180.34" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="182.88" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
