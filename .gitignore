@@ -1,1 +1,5 @@
-*##
+# eagle backup files
+*.*#*
+
+# eagle project file
+*.epf
