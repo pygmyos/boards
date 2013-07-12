@@ -29,3 +29,25 @@ eagle.epf
 *.info
 
 *.eps
+
+# archives
+*.7z
+*.asc
+*.bz2
+*.bzip
+*.deb
+*.dmg
+*.egg
+*.gem
+*.gz
+*.iso
+*.jar
+*.lzma
+*.rar
+*.rpm
+*.sig
+*.tar
+*.tgz
+*.xpi
+*.xz
+*.zip
